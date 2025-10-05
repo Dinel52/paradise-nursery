@@ -24,7 +24,7 @@ E-commerce plant shop built with React, Redux Toolkit, and Tailwind CSS.
 
 ```bash
 # Clone repository
-git clone https://github.com/YOUR_USERNAME/paradise-nursery.git
+git clone https://github.com/Dinel52/paradise-nursery.git
 
 # Navigate to project
 cd paradise-nursery
@@ -64,7 +64,7 @@ The application uses Redux Toolkit for state management with the following struc
 
 ## Author
 
-Your Name - [GitHub Profile](https://github.com/YOUR_USERNAME)
+Your Name - [GitHub Profile](https://github.com/Dinel52)
 
 ## License
 
