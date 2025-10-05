@@ -1,16 +1,71 @@
-# React + Vite
+# Paradise Nursery 🌿
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+E-commerce plant shop built with React, Redux Toolkit, and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🏠 Beautiful landing page with background image
+- 🛍️ Product listing with 6 unique houseplants
+- 🗂️ Plants organized in 3 categories (Indoor, Outdoor, Succulents)
+- 🛒 Shopping cart with Redux state management
+- ➕➖ Increment/decrement quantities
+- 🗑️ Delete items from cart
+- 💰 Real-time total calculation
+- 📱 Responsive design with Tailwind CSS
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React** - Frontend framework
+- **Redux Toolkit** - State management
+- **Tailwind CSS** - Styling
+- **Vite** - Build tool
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+# Clone repository
+git clone https://github.com/YOUR_USERNAME/paradise-nursery.git
+
+# Navigate to project
+cd paradise-nursery
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+```
+
+## Project Structure
+
+```
+paradise-nursery/
+├── src/
+│   ├── components/
+│   │   ├── LandingPage.jsx
+│   │   ├── Header.jsx
+│   │   ├── ProductListingPage.jsx
+│   │   └── ShoppingCartPage.jsx
+│   ├── redux/
+│   │   ├── store.js
+│   │   └── cartSlice.js
+│   ├── data/
+│   │   └── plantsData.js
+│   ├── App.jsx
+│   └── main.jsx
+```
+
+## Redux Store
+
+The application uses Redux Toolkit for state management with the following structure:
+
+- **Cart State**: `items`, `totalQuantity`, `totalAmount`
+- **Actions**: `addItem`, `removeItem`, `incrementQuantity`, `decrementQuantity`
+
+## Author
+
+Your Name - [GitHub Profile](https://github.com/YOUR_USERNAME)
+
+## License
+
+MIT
